@@ -105,7 +105,6 @@
 				AF3E3417288E409D00411993 /* View */,
 				AF3E33E8288E358200411993 /* PeopleAppApp.swift */,
 				AF3E33EA288E358200411993 /* ContentView.swift */,
-				AF3E3415288E37A400411993 /* DataController.swift */,
 				AF3E33EC288E358300411993 /* Assets.xcassets */,
 				AF3E33EE288E358300411993 /* Preview Content */,
 				AF3E3412288E35A800411993 /* People.xcdatamodeld */,
@@ -141,6 +140,7 @@
 		AF3E3417288E409D00411993 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AF3E3415288E37A400411993 /* DataController.swift */,
 				AF3E3419288E40BB00411993 /* AddUserView.swift */,
 				AF3E341B288E47CD00411993 /* userDetailView.swift */,
 			);
