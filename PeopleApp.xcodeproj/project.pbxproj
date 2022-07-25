@@ -14,6 +14,10 @@
 		AF3E33FA288E358300411993 /* PeopleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E33F9288E358300411993 /* PeopleAppTests.swift */; };
 		AF3E3404288E358300411993 /* PeopleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E3403288E358300411993 /* PeopleAppUITests.swift */; };
 		AF3E3406288E358300411993 /* PeopleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E3405288E358300411993 /* PeopleAppUITestsLaunchTests.swift */; };
+		AF3E3414288E35A800411993 /* People.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF3E3412288E35A800411993 /* People.xcdatamodeld */; };
+		AF3E3416288E37A400411993 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E3415288E37A400411993 /* DataController.swift */; };
+		AF3E341A288E40BB00411993 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E3419288E40BB00411993 /* AddUserView.swift */; };
+		AF3E341C288E47CD00411993 /* userDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E341B288E47CD00411993 /* userDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		AF3E33FF288E358300411993 /* PeopleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3E3403288E358300411993 /* PeopleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAppUITests.swift; sourceTree = "<group>"; };
 		AF3E3405288E358300411993 /* PeopleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF3E3413288E35A800411993 /* People.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = People.xcdatamodel; sourceTree = "<group>"; };
+		AF3E3415288E37A400411993 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		AF3E3419288E40BB00411993 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		AF3E341B288E47CD00411993 /* userDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,13 @@
 		AF3E33E7288E358200411993 /* PeopleApp */ = {
 			isa = PBXGroup;
 			children = (
+				AF3E3417288E409D00411993 /* View */,
 				AF3E33E8288E358200411993 /* PeopleAppApp.swift */,
 				AF3E33EA288E358200411993 /* ContentView.swift */,
+				AF3E3415288E37A400411993 /* DataController.swift */,
 				AF3E33EC288E358300411993 /* Assets.xcassets */,
 				AF3E33EE288E358300411993 /* Preview Content */,
+				AF3E3412288E35A800411993 /* People.xcdatamodeld */,
 			);
 			path = PeopleApp;
 			sourceTree = "<group>";
@@ -125,6 +136,15 @@
 				AF3E3405288E358300411993 /* PeopleAppUITestsLaunchTests.swift */,
 			);
 			path = PeopleAppUITests;
+			sourceTree = "<group>";
+		};
+		AF3E3417288E409D00411993 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E3419288E40BB00411993 /* AddUserView.swift */,
+				AF3E341B288E47CD00411993 /* userDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3E33EB288E358200411993 /* ContentView.swift in Sources */,
+				AF3E3416288E37A400411993 /* DataController.swift in Sources */,
+				AF3E341A288E40BB00411993 /* AddUserView.swift in Sources */,
+				AF3E3414288E35A800411993 /* People.xcdatamodeld in Sources */,
+				AF3E341C288E47CD00411993 /* userDetailView.swift in Sources */,
 				AF3E33E9288E358200411993 /* PeopleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +607,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF3E3412288E35A800411993 /* People.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF3E3413288E35A800411993 /* People.xcdatamodel */,
+			);
+			currentVersion = AF3E3413288E35A800411993 /* People.xcdatamodel */;
+			path = People.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AF3E33DD288E358200411993 /* Project object */;
 }
